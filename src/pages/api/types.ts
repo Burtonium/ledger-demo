@@ -10,9 +10,5 @@ export enum Method {
   PUT = 'PUT'
 }
 
-type EnumMap<T extends string | symbol | number, U> = {
-  [K in T]: U;
-};
-
-export type HandlerMap = Partial<EnumMap<Method, Handler<unknown>>>;
+export type HandlerMap = Partial<Record<Method, Handler<unknown>>>;
 
