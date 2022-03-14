@@ -106,8 +106,9 @@ const Home = () => {
         </h4>
         <ul>
           {transactions.data?.map((tx) => (
-            <li key={tx.id}>
+            <li className='mt-3' key={tx.id}>
               Transaction id: {tx.id}<br/>
+              Sent: {entriesByTransaction[tx.id]?.find(isCredit)?.amount}<br/>
               From: {entriesByTransaction[tx.id]?.find(isDebit)?.accountId ?? 'unknown'}<br/>
               To: {entriesByTransaction[tx.id]?.find(isCredit)?.accountId ?? 'unknown'}&nbsp;
             </li>
