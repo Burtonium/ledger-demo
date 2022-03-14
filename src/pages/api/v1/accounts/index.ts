@@ -1,6 +1,6 @@
 import { getKnex } from '../../../../knex';
 import { Account } from '../../../../api/types';
-import type { Handler } from 'src/pages/api/types';
+import type { Handler } from '../../types';
 import { handle } from '../../utils';
 
 const post: Handler = async (req, res) => {

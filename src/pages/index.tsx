@@ -38,7 +38,7 @@ const Home = () => {
           ) => {
             setSubmitting(true);
             await createAccount(values);
-            accounts.mutate(accounts.data?.slice().concat(values));
+            accounts.mutate();
             setSubmitting(false)
           }}
         >

@@ -32,7 +32,6 @@ const post: Handler = async (req, res) => {
       [amount, to]
     ).transacting(trx);
       
-    
     await knex<Entry>('entries')
       .transacting(trx)
       .insert({
@@ -42,7 +41,6 @@ const post: Handler = async (req, res) => {
         amount
       });
   })
-
 
   res.status(201).send({ name });
 }
