@@ -9,16 +9,16 @@
     "cy:open": "cypress open"
   },
   "dependencies": {
-    "bulma": "^0.9.2",
-    "lodash": "^4.17.20",
-    "next": "^10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "sass": "^1.32.7",
-    "swr": "^0.4.2"
+    "bulma": "^0.9.3",
+    "lodash": "^4.17.21",
+    "next": "^12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.49.9",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
-    "cypress": "^6.4.0",
-    "cypress-dotenv": "^1.2.2"
+    "cypress": "^9.5.1",
+    "cypress-dotenv": "^2.0.0"
   }
 }
