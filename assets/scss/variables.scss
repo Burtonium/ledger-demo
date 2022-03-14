@@ -1,0 +1,27 @@
+@import '~bulma/sass/utilities/functions';
+@import '~bulma/sass/utilities/initial-variables';
+
+$primary: #fe7751;
+$secondary: #fea251;
+$tertiary: #fe515c;
+
+// Fonts
+$family-sans-serif: 'Montserrat', sans-serif;
+$family-primary: $family-sans-serif;
+$family-secondary: 'Oswald', sans-serif;
+
+$main-gradient: linear-gradient(
+  to bottom right,
+  $secondary 0%,
+  $primary 50%,
+  $tertiary 100%,
+);
+
+@import '~bulma/sass/utilities/derived-variables';
+
+$extraColors: (
+  "secondary": ($secondary, $white),
+  "tertiary": ($tertiary, $white),
+);
+
+$colors: map-merge($colors, $extraColors);

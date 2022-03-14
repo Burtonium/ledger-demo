@@ -1,0 +1,18 @@
+// inputs
+$main-radius: 0;
+$input-color: $text;
+$input-arrow: $secondary;
+$input-background-color: transparent;
+$input-shadow: none;
+
+@import '~bulma/sass/form/_all';
+
+.input {
+  border-radius: 0;
+  border: none;
+  background-color: darken($background, 3%);
+
+  &::placeholder {
+    color: lighten($text, 15%);
+  }
+}
