@@ -33,7 +33,7 @@
   },
   "include": [
     "src"
-, "knexfile.ts"  ],
+, "knexfile.js"  ],
   "exclude": [
     "node_modules",
     "types"
