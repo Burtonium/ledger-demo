@@ -27,8 +27,6 @@
     "@types/knex": "^0.16.1",
     "@types/lodash": "^4.14.179",
     "@types/react": "^17.0.40",
-    "cypress": "^9.5.1",
-    "cypress-dotenv": "^2.0.0",
     "eslint": "^8.11.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-prettier": "^8.3.0",
